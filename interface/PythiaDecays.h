@@ -22,7 +22,7 @@ typedef std::vector<RawParticle> DaughterParticleList;
 typedef DaughterParticleList::const_iterator DaughterParticleIterator; 
 
 namespace gen { class Pythia6Service; } // remove?
-using namespace gen;
+//using namespace gen;
 
 class PythiaDecays 
 {
