@@ -8,9 +8,7 @@
 <use name="clhep"/>
 <use name="pythia8"/> 
 <use   name="f77compiler"/>
-<architecture name="slc._[^_]*_gcc4[5-9]">
-    <flags LDFLAGS="$(PYTHIA6_BASE)/lib/pydata.o"/>
-</architecture>
+<use   name="pydata"/>
 <export>
   <lib   name="1"/>
 </export>
